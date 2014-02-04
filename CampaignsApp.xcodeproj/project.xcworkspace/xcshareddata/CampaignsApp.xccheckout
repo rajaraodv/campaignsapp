@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F69D8F7A-163A-4E23-9EBC-8A67790C7DDA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CampaignsApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D49D5F8C-148B-4EF3-B8D2-D7A267CD58BA</key>
+		<string>https://github.com/forcedotcom/SalesforceMobileSDK-Samples.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/tutorials/NativeiOSTutorial/CampaignsApp/CampaignsApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D49D5F8C-148B-4EF3-B8D2-D7A267CD58BA</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/forcedotcom/SalesforceMobileSDK-Samples.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D49D5F8C-148B-4EF3-B8D2-D7A267CD58BA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D49D5F8C-148B-4EF3-B8D2-D7A267CD58BA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SalesforceMobileSDK-Samples</string>
+		</dict>
+	</array>
+</dict>
+</plist>

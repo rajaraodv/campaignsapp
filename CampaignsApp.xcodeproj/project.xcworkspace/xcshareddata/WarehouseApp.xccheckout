@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E22F552B-68CC-40C1-ACF3-3F23F41B621B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WarehouseApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FAA12387-23F8-49D0-BCC9-15E48FA898F6</key>
+		<string>https://github.com/forcedotcom/SalesforceMobileSDK-Samples.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/tutorials/NativeiOSTutorial/WarehouseApp copy/WarehouseApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FAA12387-23F8-49D0-BCC9-15E48FA898F6</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/forcedotcom/SalesforceMobileSDK-Samples.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FAA12387-23F8-49D0-BCC9-15E48FA898F6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FAA12387-23F8-49D0-BCC9-15E48FA898F6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SalesforceMobileSDK-Samples</string>
+		</dict>
+	</array>
+</dict>
+</plist>

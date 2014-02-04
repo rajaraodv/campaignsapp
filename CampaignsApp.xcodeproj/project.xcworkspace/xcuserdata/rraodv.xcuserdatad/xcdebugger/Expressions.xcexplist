@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[CampaignMembersViewController amountEntered:]:CampaignMembersViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int)indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[WarehouseViewController filterCampaignResults]:WarehouseViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.filterField.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CampaignMembersViewController viewDidLoad]:CampaignMembersViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.campaignObject">
+            </PersistentString>
+            <PersistentString
+               value = "[self.campaignObject objectForKey:@&quot;Id&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "self.title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CampaignsViewController prepareForSegue:sender:]:CampaignsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[segue identifier]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CampaignsViewController request:didLoadResponse:]:CampaignsViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CampaignMembersViewController tableView:heightForRowAtIndexPath:]:CampaignMembersViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CampaignMembersViewController request:didLoadResponse:]:CampaignMembersViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[@&quot;raja rao&quot; rangeOfString:@&quot;raja&quot;].location">
+            </PersistentString>
+            <PersistentString
+               value = "[q rangeOfString:@&quot;lead.name&quot; options:NSCaseInsensitiveSearch]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CampaignMembersViewController viewWillAppear:]:CampaignMembersViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.campaignObject objectForKey:@&quot;Id&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CampaignMembersViewController filterCampaignMemberResults]:CampaignMembersViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.filterField.text">
+            </PersistentString>
+            <PersistentString
+               value = "self.filtereResults">
+            </PersistentString>
+            <PersistentString
+               value = "self.filterResults">
+            </PersistentString>
+            <PersistentString
+               value = "[self.filterResults count]">
+            </PersistentString>
+            <PersistentString
+               value = "self.dataRows">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CampaignMembersViewController tableView:cellForRowAtIndexPath:]:CampaignMembersViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "leadOrContact == (id)[NSNull null]">
+            </PersistentString>
+            <PersistentString
+               value = "leadOrContact">
+            </PersistentString>
+            <PersistentString
+               value = "[obj objectForKey:@&quot;Status&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "[obj objectForKey:@&quot;Contact&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "(id)[NSNull null]">
+            </PersistentString>
+            <PersistentString
+               value = "[obj objectForKey:@&quot;Lead&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "cell.memberName.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CampaignMembersViewController tableView:numberOfRowsInSection:]:CampaignMembersViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.filterResults count]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

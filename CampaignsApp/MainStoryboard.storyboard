@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="VYc-wB-R3s">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Campaigns View Controller - Campaigns-->
+        <scene sceneID="gp3-uX-bRQ">
+            <objects>
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="VYc-wB-R3s" customClass="CampaignsViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="eOn-HZ-gud">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" searchBarStyle="prominent" placeholder="Filter Campaigns.." id="dWi-Gq-6wb">
+                            <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="VYc-wB-R3s" id="xdo-Ze-1R4"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellIdentifier" id="NDo-BY-lYi">
+                                <rect key="frame" x="0.0" y="130" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NDo-BY-lYi" id="AYV-TM-Vzl">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <segue destination="PRL-U6-szP" kind="push" identifier="ShowCampaignMembersSegue" id="COx-eE-wFs"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Campaigns" id="pAZ-dD-LhG"/>
+                    <connections>
+                        <outlet property="filterField" destination="dWi-Gq-6wb" id="3a3-Xn-YHr"/>
+                        <outlet property="searchDisplayController" destination="0NN-cD-u6P" id="LCz-Wp-ZZm"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ocf-Xy-oAE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="0NN-cD-u6P">
+                    <connections>
+                        <outlet property="delegate" destination="VYc-wB-R3s" id="wHW-aC-cCN"/>
+                        <outlet property="searchBar" destination="dWi-Gq-6wb" id="geZ-Ml-bdI"/>
+                        <outlet property="searchContentsController" destination="VYc-wB-R3s" id="PO4-vD-IMb"/>
+                        <outlet property="searchResultsDataSource" destination="VYc-wB-R3s" id="hAI-tU-nPV"/>
+                        <outlet property="searchResultsDelegate" destination="VYc-wB-R3s" id="fNO-7M-T7Z"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="-55" y="-78"/>
+        </scene>
+        <!--Campaign Members View Controller - Campaign Members-->
+        <scene sceneID="13a-Lh-w32">
+            <objects>
+                <tableViewController id="PRL-U6-szP" customClass="CampaignMembersViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="120" sectionHeaderHeight="22" sectionFooterHeight="22" id="xEx-Pw-tYo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Filter Campaign Members..." scopeBarBackgroundImage="icon-72.png" id="9aE-r6-Qho">
+                            <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="PRL-U6-szP" id="RU6-6z-QWn"/>
+                            </connections>
+                        </searchBar>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="PRL-U6-szP" id="mNO-Ec-1IV"/>
+                            <outlet property="delegate" destination="PRL-U6-szP" id="eRR-4G-kGp"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Campaign Members" id="BnW-Gz-EQS">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="LS1-Os-x51"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="filterField" destination="9aE-r6-Qho" id="GwW-hg-VCH"/>
+                        <outlet property="searchDisplayController" destination="fO8-Ok-L60" id="QeL-7e-0QH"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nv8-8y-1An" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="fO8-Ok-L60">
+                    <connections>
+                        <outlet property="delegate" destination="PRL-U6-szP" id="TMm-pO-yHI"/>
+                        <outlet property="searchBar" destination="9aE-r6-Qho" id="8LR-VN-CRY"/>
+                        <outlet property="searchContentsController" destination="PRL-U6-szP" id="TfO-3j-gNz"/>
+                        <outlet property="searchResultsDataSource" destination="PRL-U6-szP" id="xVC-8c-ayV"/>
+                        <outlet property="searchResultsDelegate" destination="PRL-U6-szP" id="5wX-gK-av3"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="367" y="-78"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="UMm-Hm-jjQ">
+            <objects>
+                <navigationController storyboardIdentifier="MainNavigationControllerSBID" definesPresentationContext="YES" id="mrX-0I-JSm" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6jW-qv-EK5">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="VYc-wB-R3s" kind="relationship" relationship="rootViewController" id="NW9-0g-OmX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tCF-0R-pad" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-589" y="-78"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon-72.png" width="72" height="72"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
